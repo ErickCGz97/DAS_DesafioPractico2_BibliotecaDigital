@@ -1,0 +1,74 @@
+﻿@model IEnumerable<BibliotecaDigital.Models.Libro>
+
+@{
+    ViewData["Title"] = "Explorar Libros";
+}
+
+<h2 class="text-center mt-4">📚 Explorar Libros</h2>
+
+<div class="container">
+    <!-- Filtros -->
+    <form method="get" class="d-flex justify-content-center mb-3">
+        <input type="text" name="filtroTitulo" class="form-control me-2" placeholder="Buscar por título">
+        <select name="filtroGenero" class="form-select me-2">
+            <option value="">Todos los géneros</option>
+            <option value="Fantasía">Fantasía</option>
+            <option value="Novela">Novela</option>
+            <option value="Distopía">Distopía</option>
+            <!-- Agregar más géneros -->
+        </select>
+        <button type="submit" class="btn btn-primary">🔍 Buscar</button>
+    </form>
+
+    <!-- Grid de Libros -->
+    <div class="row">
+        @foreach (var libro in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="@libro.Portada_URL" class="card-img-top" alt="@libro.Titulo">
+                    <div class="card-body">
+                        <h5 class="card-title">@libro.Titulo</h5>
+                        <p class="card-text"><strong>Autor:</strong> @libro.Autor</p>
+                        <p class="card-text"><strong>Género:</strong> @libro.Genero</p>
+                        <p class="card-text">@libro.Sinopsis.Substring(0, Math.Min(100, libro.Sinopsis.Length))...</p>
+
+                        <!-- Calificación -->
+                        <form method="post" asp-action="Calificar" asp-controller="Libros">
+                            <input type="hidden" name="idLibro" value="@libro.IdLibro">
+                            <select name="puntuacion" class="form-select mb-2">
+                                <option value="1">⭐</option>
+                                <option value="2">⭐⭐</option>
+                                <option value="3">⭐⭐⭐</option>
+                                <option value="4">⭐⭐⭐⭐</option>
+                                <option value="5">⭐⭐⭐⭐⭐</option>
+                            </select>
+                            <button type="submit" class="btn btn-success w-100">Calificar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Paginación -->
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item @(ViewBag.Pagina == 1 ? "disabled" : "")">
+                <a class="page-link" href="?pagina=1">⬅ Primera</a>
+            </li>
+            <li class="page-item @(ViewBag.Pagina <= 1 ? "disabled" : "")">
+                <a class="page-link" href="?pagina=@(ViewBag.Pagina - 1)">◀ Anterior</a>
+            </li>
+            <li class="page-item">
+                <span class="page-link">Página @ViewBag.Pagina de @ViewBag.TotalPaginas</span>
+            </li>
+            <li class="page-item @(ViewBag.Pagina >= ViewBag.TotalPaginas ? "disabled" : "")">
+                <a class="page-link" href="?pagina=@(ViewBag.Pagina + 1)">▶ Siguiente</a>
+            </li>
+            <li class="page-item @(ViewBag.Pagina == ViewBag.TotalPaginas ? "disabled" : "")">
+                <a class="page-link" href="?pagina=@ViewBag.TotalPaginas">➡ Última</a>
+            </li>
+        </ul>
+    </nav>
+</div>

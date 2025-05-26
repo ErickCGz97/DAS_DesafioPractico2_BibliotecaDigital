@@ -3,52 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\views\\libros\\toplecturas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\views\\libros\\toplecturas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\views\\libros\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\views\\libros\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\views\\libros\\explorarlibros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\views\\libros\\explorarlibros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\data\\bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\data\\bibliotecacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\controllers\\pruebaconexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\controllers\\pruebaconexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\migrations\\20250524173102_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\migrations\\20250524173102_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\bibliotecadigital.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\bibliotecadigital.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|c:\\users\\cabre\\source\\repos\\das_desafiopractico2\\bibliotecadigital\\bibliotecadigital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5619DE17-6CD7-4BE0-9173-DF39E85C562D}|BibliotecaDigital\\BibliotecaDigital.csproj|solutionrelative:bibliotecadigital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,158 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LibrosController.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Controllers\\LibrosController.cs",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Controllers\\LibrosController.cs",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Controllers\\LibrosController.cs",
-              "RelativeToolTip": "BibliotecaDigital\\Controllers\\LibrosController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T17:47:16.436Z",
+              "DocumentIndex": 0,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Libros\\Admin.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDigital\\Views\\Libros\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Libros\\Admin.cshtml",
+              "RelativeToolTip": "BibliotecaDigital\\Views\\Libros\\Admin.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T04:31:49.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TopLecturas.cshtml",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Libros\\TopLecturas.cshtml",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Views\\Libros\\TopLecturas.cshtml",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Libros\\TopLecturas.cshtml",
-              "RelativeToolTip": "BibliotecaDigital\\Views\\Libros\\TopLecturas.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T18:01:49.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExplorarLibros.cshtml",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Libros\\ExplorarLibros.cshtml",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Views\\Libros\\ExplorarLibros.cshtml",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Libros\\ExplorarLibros.cshtml",
-              "RelativeToolTip": "BibliotecaDigital\\Views\\Libros\\ExplorarLibros.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T17:55:31.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Libros\\Index.cshtml",
               "RelativeDocumentMoniker": "BibliotecaDigital\\Views\\Libros\\Index.cshtml",
               "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Libros\\Index.cshtml",
               "RelativeToolTip": "BibliotecaDigital\\Views\\Libros\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T18:42:05.366Z",
+              "WhenOpened": "2025-05-26T04:21:26.311Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Program.cs",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Program.cs",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Program.cs",
-              "RelativeToolTip": "BibliotecaDigital\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T17:26:00.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Models\\Libro.cs",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Models\\Libro.cs",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Models\\Libro.cs",
-              "RelativeToolTip": "BibliotecaDigital\\Models\\Libro.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA4wCAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T17:40:53.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BibliotecaDigital\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-25T23:31:21.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PruebaConexionController.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Controllers\\PruebaConexionController.cs",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Controllers\\PruebaConexionController.cs",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Controllers\\PruebaConexionController.cs",
-              "RelativeToolTip": "BibliotecaDigital\\Controllers\\PruebaConexionController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T17:37:02.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BibliotecaContext.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Data\\BibliotecaContext.cs",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Data\\BibliotecaContext.cs",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Data\\BibliotecaContext.cs",
-              "RelativeToolTip": "BibliotecaDigital\\Data\\BibliotecaContext.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T17:33:58.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250524173102_Inicial.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Migrations\\20250524173102_Inicial.cs",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\Migrations\\20250524173102_Inicial.cs",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\Migrations\\20250524173102_Inicial.cs",
-              "RelativeToolTip": "BibliotecaDigital\\Migrations\\20250524173102_Inicial.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T17:31:03.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\appsettings.json",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\appsettings.json",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\appsettings.json",
-              "RelativeToolTip": "BibliotecaDigital\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-24T17:29:04.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BibliotecaDigital.csproj",
-              "DocumentMoniker": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\BibliotecaDigital.csproj",
-              "RelativeDocumentMoniker": "BibliotecaDigital\\BibliotecaDigital.csproj",
-              "ToolTip": "C:\\Users\\cabre\\source\\repos\\DAS_DesafioPractico2\\BibliotecaDigital\\BibliotecaDigital\\BibliotecaDigital.csproj",
-              "RelativeToolTip": "BibliotecaDigital\\BibliotecaDigital.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-24T17:28:05.956Z"
             }
           ]
         }

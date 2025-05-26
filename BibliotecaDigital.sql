@@ -44,4 +44,6 @@ INSERT INTO Libros (titulo, autor, genero, sinopsis, portada_url) VALUES
 select * from Libros
 
 select * from Calificaciones
+-- Sentencia para mostar informacion de Clasificaciones junto al nombre de los Libros
 select Calificaciones.idCalificacion, Calificaciones.puntuacion, Calificaciones.fechaHora, Calificaciones.idLibro, Libros.titulo from Calificaciones INNER JOIN Libros on Calificaciones.idLibro = Libros.idLibro
+

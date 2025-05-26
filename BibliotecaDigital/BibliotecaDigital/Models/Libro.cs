@@ -33,7 +33,5 @@ namespace BibliotecaDigital.Models
         //Nueva propiedad para almacenar el promedio de calificación
         [NotMapped] // Evita que esta propiedad se guarde en la base de datos
         public double PromedioCalificacion { get; set; }
-
-
     }
 }

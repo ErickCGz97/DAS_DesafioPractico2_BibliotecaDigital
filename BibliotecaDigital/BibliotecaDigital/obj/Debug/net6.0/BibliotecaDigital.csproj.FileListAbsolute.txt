@@ -85,3 +85,4 @@ C:\Users\cabre\source\repos\DAS_DesafioPractico2\BibliotecaDigital\BibliotecaDig
 C:\Users\cabre\source\repos\DAS_DesafioPractico2\BibliotecaDigital\BibliotecaDigital\obj\Debug\net6.0\BibliotecaDigital.pdb
 C:\Users\cabre\source\repos\DAS_DesafioPractico2\BibliotecaDigital\BibliotecaDigital\obj\Debug\net6.0\BibliotecaDigital.genruntimeconfig.cache
 C:\Users\cabre\source\repos\DAS_DesafioPractico2\BibliotecaDigital\BibliotecaDigital\obj\Debug\net6.0\ref\BibliotecaDigital.dll
+C:\Users\cabre\source\repos\DAS_DesafioPractico2\BibliotecaDigital\BibliotecaDigital\obj\Debug\net6.0\BibliotecaDigital.sourcelink.json

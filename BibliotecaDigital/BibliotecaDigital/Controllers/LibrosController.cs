@@ -14,7 +14,7 @@ namespace BibliotecaDigital.Controllers
             _context = context;
         }
 
-        // 🟢 Acción para explorar libros con filtros y paginación
+        // Acción para explorar libros con filtros y paginación
         public IActionResult Index(string filtroTitulo, string filtroGenero, int pagina = 1)
         {
             int tamanoPagina = 6; //Cantidad de libros a mostrar en la página
@@ -48,7 +48,7 @@ namespace BibliotecaDigital.Controllers
             return View(listaLibros);
         }
 
-        // ⭐ Acción para calificar un libro (sin necesidad de autenticación)
+        // Acción para calificar un libro (sin necesidad de autenticación)
         [HttpPost]
         public IActionResult Calificar(int idLibro, int puntuacion)
         {
@@ -67,7 +67,7 @@ namespace BibliotecaDigital.Controllers
             return RedirectToAction("Index");
         }
 
-        // 🏆 Acción para mostrar los 5 libros mejor calificados
+        // Acción para mostrar los 5 libros mejor calificados
         public IActionResult TopLecturas()
         {
             var mejoresLibros = _context.Libros
@@ -99,6 +99,79 @@ namespace BibliotecaDigital.Controllers
                 .ToList();
 
             return View(mejoresLibros);
+        }
+
+        // SECCION DE FORMULARIO PARA LIBROS
+        // Mostrar el formulario para crear un libro
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // Procesar el formulario y guardar el libro en la BD
+        [HttpPost]
+        public IActionResult Create(Libro libro)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Libros.Add(libro);
+                _context.SaveChanges();
+                return RedirectToAction("Index"); //Redirige a la lista de libros
+            }
+
+            return View(libro);
+        }
+
+        // Mostrar el formulario para editar un libro
+        public IActionResult Edit(int id)
+        {
+            var libro = _context.Libros.Find(id);
+            if (libro == null) return NotFound();
+            return View(libro);
+        }
+
+        // Procesar la edición y guardar cambios
+        [HttpPost]
+        public IActionResult Edit(Libro libro)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Libros.Update(libro);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(libro);
+        }
+
+        // Mostrar el formulario de confirmación para eliminar
+        public IActionResult Delete(int id)
+        {
+            var libro = _context.Libros.Find(id);
+            if (libro == null) return NotFound();
+            return View(libro);
+        }
+
+        // Procesar la eliminación
+        [HttpPost]
+        public IActionResult DeleteConfirmed([FromForm] int id) //Forzar que el parámetro venga del formulario
+        {
+            if (id <= 0) return BadRequest("ID no válido."); //Validación para evitar errores
+
+            var libro = _context.Libros.FirstOrDefault(l => l.IdLibro == id);
+            if (libro == null) return NotFound();
+
+            _context.Libros.Remove(libro);
+            _context.SaveChanges();
+
+            return RedirectToAction("Admin");
+        }
+
+        public IActionResult Admin()
+        {
+            _context.ChangeTracker.Clear(); // Limpia el caché de entidades
+            var listaLibros = _context.Libros.ToList(); // Obtiene la lista real desde la BD
+            return View(listaLibros);
         }
     }
 }

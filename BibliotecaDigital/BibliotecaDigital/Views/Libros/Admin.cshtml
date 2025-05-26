@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BibliotecaDigital.Models.Libro>
+
+@{
+    ViewData["Title"] = "Administración de Libros";
+}
+
+<h2 class="text-center mt-4">Administración de Libros</h2>
+
+<!-- 🔹 Botón para agregar un nuevo libro -->
+<a href="@Url.Action("Create", "Libros")" class="btn btn-success mb-3">Agregar Nuevo Libro</a>
+
+<!-- 📌 Tabla de libros con opciones CRUD -->
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Género</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var libro in Model)
+        {
+            <tr>
+                <td>@libro.IdLibro</td>
+                <td>@libro.Titulo</td>
+                <td>@libro.Autor</td>
+                <td>@libro.Genero</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = libro.IdLibro })" class="btn btn-warning btn-sm">Editar</a>
+                    <a href="@Url.Action("Delete", new { id = libro.IdLibro })" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

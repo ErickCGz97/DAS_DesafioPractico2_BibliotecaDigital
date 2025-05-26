@@ -1,0 +1,11 @@
+﻿@model BibliotecaDigital.Models.Libro
+
+<h2>Eliminar Libro</h2>
+
+<p>¿Estás seguro de que deseas eliminar "<strong>@Model.Titulo</strong>"?</p>
+
+<form method="post" action="@Url.Action("DeleteConfirmed", "Libros")">
+    <input type="hidden" name="id" value="@Model.IdLibro"> <!-- 🔹 Asegurar que el name="id" coincida -->
+    <button type="submit" class="btn btn-danger">Confirmar Eliminación</button>
+    <a href="@Url.Action("Admin")" class="btn btn-secondary">Cancelar</a>
+</form>
